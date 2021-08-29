@@ -1,0 +1,33 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*td, th {*/
+/*    border: 1px solid #dddddd;*/
+/*    text-align: left;*/
+/*    padding: 8px;*/
+/*}*/
+
+th {
+    text-align: left;
+    background-color: #18171c;
+    color: white;
+    padding: 7px;
+}
+
+tr{
+    background-color: #26232c;
+    color: #4e4b54;
+
+}
+
+.Name-SubOccupation{
+    color: #7c7982;
+
+}
+
+/*tr:nth-child(even) {*/
+/*    background-color: #dddddd;*/
+/*}*/
