@@ -1,6 +1,10 @@
 img{
     width: 40px;
     height: 40px;
+    margin-right: 10px;
+    box-shadow: 0 0 30px gray;
+    border-radius: 2px;
+
 }
 
 td{
@@ -22,6 +26,6 @@ table{
 
 .TrackName{
     color: black;
-    font-size: 15px;
+    font-size: 14px;
 
 }
