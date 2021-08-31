@@ -1,0 +1,10 @@
+div{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+#MainCountaner{
+    margin: 30px;
+    width: 800px ;
+    horiz-align: center
+}
