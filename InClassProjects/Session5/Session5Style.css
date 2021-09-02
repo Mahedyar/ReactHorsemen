@@ -1,0 +1,28 @@
+@font-face {
+    font-family: test;
+    src: url("Fonts/andlso.ttf") format("TTF");
+
+}
+
+.font {
+    font-family: test;
+
+    /*background-color: #2b4b80;*/
+
+}
+
+
+
+
+
+/*@media screen and (min-width: 375px){*/
+/*    h2{*/
+/*        font-size: 1.8rem;*/
+
+/*    }*/
+/*}*/
+
+
+
+
+
