@@ -1,15 +1,107 @@
-div{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 10px;
-}
-
-#MainCountaner{
+#MainContainer{
     margin: 30px;
     width: 800px ;
     horiz-align: center
 }
-
-.Icon{
-    width: 5px;
+#MainContainer div{
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+#MainContainer p{
+    margin-top: 18px;
 
 }
+
+#FirstLine{
+    font-size: 4px;
+
+}
+
+#IconHeader img{
+    width: 6px;
+    float: left;
+    margin-right: 2px;
+}
+
+#IconHeader span {
+    font-size: 5px;
+    float: left;
+}
+#IconHeader div {
+    margin-right: 10px;
+    float: left;
+}
+#IconHeader{
+    margin-bottom:40px;
+}
+
+.LastLine {
+    font-size: 5px;
+    color: #7c7982;
+    float: left;
+}
+
+#LastIcon {
+    width: 6px;
+    float: left ;
+    margin-right: 2px;
+}
+
+#SiteButtonContainer img{
+    float: left;
+    width: 10px;
+    margin: 5px 5px 0px 5px;
+
+}
+
+#SiteButtonContainer span{
+    float: left;
+    font-size: 11px;
+    vertical-align: center;
+    margin-top: 3px;
+    color: white;
+    font-weight: bold;
+}
+#SiteButtonContainer div{
+    margin-right: 5px;
+    float: left;
+    width: 18%;
+    height: 20px;
+}
+
+
+#AuthorContainer img {
+    width: 60px;
+    border-radius: 30px;
+   margin: 20px;
+
+}
+
+#AuthorContainer div {
+    float: left;
+}
+#AuthorContainer{
+    margin-top: 15px;
+    float: left;
+    background-color: rgba(220,239,241,2);
+}
+
+#Author{
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+
+#FinalPart div{
+    width: 49% ;
+    display: inline-block;
+    margin-top: 15px;
+
+
+}
+
+
+
+
+
