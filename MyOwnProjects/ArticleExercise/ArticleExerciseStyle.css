@@ -86,10 +86,18 @@
     float: left;
     background-color: rgba(220,239,241,2);
 }
+#AuthorContent{
+    margin-left: 20px;
 
+}
 #Author{
     font-weight: bold;
     margin-bottom: -10px;
+}
+
+#AuthorSubContent {
+    width: 700px;
+    float: left;
 }
 
 
@@ -97,6 +105,57 @@
     width: 49% ;
     display: inline-block;
     margin-top: 15px;
+}
+
+#AvatarContainer {
+    width: 80px
+
+}
+
+@media screen and (max-width: 400px) {
+    #MainContainer {
+        width: 300px;
+    }
+    #MainPicture  {
+        width: 300px;
+    }
+    #AuthorContainer {
+        width: 300px;
+        height: 300px;
+    }
+    #AuthorContainer img{
+       text-align: center;
+    }
+    #SiteButtonContainer span{
+        font-size: 6px;
+        align-items: center;
+        display: flex;
+        margin-top: 3px;
+    }
+    #SiteButtonContainer {
+        display: flex;
+    }
+
+    #Author{
+        text-align: center;
+    }
+
+    #AuthorSubContent {
+        width: 255px;
+        text-align: center;
+    }
+
+    #AvatarContainer{
+
+        margin-left: 100px;
+
+    }
+
+    #AuthorContent{
+
+        margin-top: -30px;
+    }
+
 
 
 }
