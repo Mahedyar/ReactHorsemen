@@ -140,15 +140,16 @@
     }
 
     #Author{
-        text-align: center;
+        /*text-align: center;*/
     }
 
     #AuthorSubContent {
         width: 255px;
-        text-align: center;
+        /*text-align: center;*/
     }
 
     #AvatarContainer{
+        vertical-align: middle;
 
         margin-left: 100px;
 
@@ -156,6 +157,7 @@
 
     #AuthorContent{
         margin-top: -30px;
+        text-align: center;
     }
 
 

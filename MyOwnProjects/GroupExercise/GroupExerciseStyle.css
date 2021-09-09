@@ -1,0 +1,83 @@
+#MainContainer{
+    margin: 20px;
+    background-color: aqua;
+    width: 90vw;
+
+}
+
+#Header {
+    background-color: orange;
+    margin: 0.7vw;
+    text-align: center;
+    padding: 1.4vw;
+}
+
+#Header span{
+    margin-left: 1vw;
+    font-size:2vw;
+}
+
+#MainPicHolder{
+    width: 90vw;
+    background-color: blue;
+
+}
+
+#MainPic {
+    width: 90vw;
+    text-align: center;
+    vertical-align: center;
+    margin-bottom: -1vw ;
+}
+#IconHolder div{
+    width: 30vw;
+    height: 5vw;
+    float: left;
+}
+#IconHolder img{
+    width: 3vw;
+    margin-left: 13vw;
+    margin-top : 1vw ;
+}
+#FaceBookIcon{
+    text-align: center;
+    vertical-align: center;
+    color: white;
+    height: 4.6vw;
+
+}
+
+#ContentHolder div{
+    margin-top: 4vw;
+    line-height: 4.5vw;
+}
+
+#BlueBox {
+    text-align: center;
+    color: white;
+    width: 85vw;
+    padding: 2.5vw;
+    background: rgb(122,185,174);
+    background: linear-gradient(21deg, rgba(122,185,174,1) 0%, rgba(121,184,175,1) 22%, rgba(120,181,176,1) 24%, rgba(85,82,213,1) 100%);
+}
+
+#BlueBox form {
+    margin-top: 3vw;
+}
+
+#BlueBox form input {
+    width: 78vw;
+    margin-top: 0.7vw;
+    padding-left: 1vw;
+    height: 4vw;
+}
+
+#Submit {
+    background-color: #564ed8;
+    border-color: #564ed8;
+    color: white;
+    font-weight: bold;
+}
+
+
+
