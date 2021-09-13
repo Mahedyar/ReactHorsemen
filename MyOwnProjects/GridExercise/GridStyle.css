@@ -1,0 +1,60 @@
+.MainContainer{
+    /*background-color: gray;*/
+    display: grid;
+    height: 100vh;
+    grid-template: repeat(3,33fr)/25fr 37fr 37fr;
+    grid-template-areas: "Sidebar Header Header"
+                         "Sidebar ImageHolder ImageHolder"
+                         "Sidebar ImageHolder ImageHolder" ;
+    line-height: 2.8vh;
+}
+
+.Sidebar{
+    grid-area: Sidebar;
+    /*background-color: #2b4b80;*/
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 8vw 0 2vw;
+
+
+}
+
+/*.Sidebar-Content{*/
+
+
+/*}*/
+
+.Header{
+    grid-area: Header;
+    /*background-color: gold;*/
+    display: flex;
+    flex-direction: column;
+    align-content:center ;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5vw 0 5vw;
+}
+.HeaderContent{
+    font-size: 1.2vw;
+}
+
+.ImageHolder{
+    grid-area: ImageHolder;
+    /*background-color: green;*/
+    grid-template: repeat(2,50fr)/repeat(2,50fr);
+    display: grid;
+    grid-gap: 0.3vw;
+}
+
+.Bold{
+    font-weight: bold;
+}
+
+.Gray{
+    color: gray;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}

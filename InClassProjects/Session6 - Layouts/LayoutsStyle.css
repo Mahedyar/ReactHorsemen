@@ -1,0 +1,22 @@
+.Container {
+    height: 90vw;
+    width: 90vh;
+    border: 2px solid gray;
+
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+
+}
+
+.box-1{
+    background-color: gold;
+}
+.box-2{
+    background-color: orange;
+}
+.box-3{
+    background-color: blue;
+}
