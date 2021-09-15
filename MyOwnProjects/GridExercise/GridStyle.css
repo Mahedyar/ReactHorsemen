@@ -18,12 +18,11 @@
 
 
 }
+.IconHolder ion-icon{
+    margin: 0.3vw;
+    font-size: 1vw;
 
-/*.Sidebar-Content{*/
-
-
-/*}*/
-
+}
 .Header{
     grid-area: Header;
     /*background-color: gold;*/
@@ -53,8 +52,39 @@
 .Gray{
     color: gray;
 }
-
 img{
     width: 100%;
     height: 100%;
 }
+
+@media screen and (max-width: 400px) {
+    .MainContainer{
+        display: grid;
+        height: 100vh;
+        grid-template: repeat(5,19fr)/25fr;
+        grid-template-areas: "Header"
+                             "ImageHolder ImageHolder ImageHolder ImageHolder ";
+    }
+
+    .Header{
+        grid-area: Header;
+        display: flex;
+        flex-direction: column;
+        align-content:start ;
+        justify-content: start;
+        text-align: center;
+        justify-items: start;
+        align-items: start;
+    }
+
+    .ImageHolder{
+        grid-area: ImageHolder;
+        grid-template: repeat(4,19fr)/25fr;
+        display: grid;
+        grid-gap: 0.3vw;
+
+    }
+
+
+}
+
