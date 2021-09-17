@@ -59,22 +59,33 @@ img{
 
 @media screen and (max-width: 400px) {
     .MainContainer{
-        display: grid;
+        display: flex;
+        flex-direction: column;
         height: 100vh;
-        grid-template: repeat(5,19fr)/25fr;
-        grid-template-areas: "Header"
-                             "ImageHolder ImageHolder ImageHolder ImageHolder ";
-    }
+        justify-self: center;
+        font-size: 3vw;
+        /*justify-items: center;*/
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        /*align-content: center;*/
+        /*grid-template: 100%/100%;*/
 
+        /*grid-template-areas: "Header"*/
+        /*                     "ImageHolder ImageHolder ImageHolder ImageHolder ";*/
+    }
     .Header{
         grid-area: Header;
         display: flex;
         flex-direction: column;
-        align-content:start ;
-        justify-content: start;
+        /*align-content:start ;*/
+        /*justify-content: start;*/
         text-align: center;
-        justify-items: start;
-        align-items: start;
+        /*justify-items: start;*/
+        /*align-items: start;*/
+    }
+
+    .HeaderContent{
+        font-size: 3vw;
     }
 
     .ImageHolder{
@@ -83,6 +94,10 @@ img{
         display: grid;
         grid-gap: 0.3vw;
 
+    }
+
+    .Sidebar{
+        display: none;
     }
 
 

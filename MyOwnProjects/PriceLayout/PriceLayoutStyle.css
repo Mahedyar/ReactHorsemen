@@ -1,0 +1,34 @@
+.MainContainer{
+    display: grid;
+    height: 100vh;
+    grid-template: repeat(2,49fr) / repeat(4,24fr);
+    grid-template-areas: "Header Header Header Header" "PriceHolder PriceHolder PriceHolder PriceHolder"
+;
+}
+
+.Header{
+    grid-area: Header;
+    display: flex;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    /*align-content: space-between;*/
+
+
+}
+
+.PriceHolder {
+    grid-area: PriceHolder;
+    display: grid;
+    grid-template: 100fr / repeat(4,24fr);
+}
+
+.Header button{
+    /*justify-content: space-between;*/
+}
+
+#UsersNumber{
+    width: 80vw;
+}
+
+
+
